@@ -14,7 +14,6 @@ import com.example.snsresponseapplication5431.databinding.FragmentFirstBinding
 class Prematch : Fragment() {
 
     private var _binding: FragmentFirstBinding? = null
-
     // This property is only valid between onCreateView and
     // onDestroyView.
     private val binding get() = _binding!!

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="PastleBlue">#629afd</color>
-    <color name="PastleBlueDark">#6262fd</color>
-    <color name="PastlePurple">#9162Fd</color>
-    <color name="SatPurple">#5117d6</color>
-    <color name="SatPurple1">#7417d6</color>
-    <color name="SatBlue">#1919e4</color>
-    <color name="PastleSatPurple">#8a43d5</color>
+    <color name="teal_200">#629afd</color>
+    <color name="teal_700">#6262fd</color>
+    <color name="purple_500">#9162Fd</color>
+    <color name="purple_700">#5117d6</color>
+    <color name="white">#7417d6</color>
+    <color name="black">#1919e4</color>
+    <color name="purple_200">#8a43d5</color>
 </resources>

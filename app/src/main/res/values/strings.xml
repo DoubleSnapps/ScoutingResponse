@@ -2,11 +2,14 @@
     <string name="app_name">SNSResponseApplication5431</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="prematch_lable">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
+    <string name="first_fragment_label">prematch frag</string>
+    <string name="second_fragment_label">Auto Frag</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
 
     <string name="PREMATCH">Welcome to the prematch.</string>
     <string name="Auto">Welcome to the Auto section. Arg: %1$s</string>
+    <string name="Teleop">Welcome to the Teleop section. Arg: %1$s</string>
+    <string name="prematch_frag" />
+
 </resources>
