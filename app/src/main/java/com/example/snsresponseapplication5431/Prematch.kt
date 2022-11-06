@@ -6,14 +6,14 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import com.example.snsresponseapplication5431.databinding.FragmentFirstBinding
+import com.example.snsresponseapplication5431.databinding.PrematchFragmentBinding
 
 /**
  * A simple [Fragment] subclass as the default destination in the navigation.
  */
 class Prematch : Fragment() {
 
-    private var _binding: FragmentFirstBinding? = null
+    private var _binding: PrematchFragmentBinding? = null
     // This property is only valid between onCreateView and
     // onDestroyView.
     private val binding get() = _binding!!
@@ -23,7 +23,7 @@ class Prematch : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
 
-        _binding = FragmentFirstBinding.inflate(inflater, container, false)
+        _binding = PrematchFragmentBinding.inflate(inflater, container, false)
         return binding.root
 
     }
@@ -39,5 +39,9 @@ class Prematch : Fragment() {
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
+
+
+
+
     }
 }

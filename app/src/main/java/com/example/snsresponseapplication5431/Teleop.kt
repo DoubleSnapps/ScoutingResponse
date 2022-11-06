@@ -44,8 +44,7 @@ class Teleop {
 
     fun main(args : Array<String>) {
         Teleop()
-    val  driverName = readln();
-
+    val driverName = readln();
     }
 
 
