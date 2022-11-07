@@ -36,7 +36,7 @@
         app:layout_constraintHorizontal_bias="0.10"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.1"/>
+        app:layout_constraintVertical_bias="0.1" />
 
     <Button
         android:id="@+id/nameButton"
@@ -47,7 +47,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/scouterName"/>
+        app:layout_constraintTop_toBottomOf="@id/scouterName" />
 
     <TextView
         android:id="@+id/allianceColor"
@@ -59,7 +59,7 @@
         app:layout_constraintHorizontal_bias="0.10"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15"/>
+        app:layout_constraintVertical_bias="0.2" />
 
     <Button
         android:id="@+id/colorButton"
@@ -70,7 +70,31 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/scouterName"/>
+        app:layout_constraintTop_toBottomOf="@id/scouterName" />
+
+    <TextView
+        android:id="@+id/blueButton"
+        android:layout_width="27dp"
+        android:layout_height="17dp"
+        android:background="#362fff"
+        android:text="@string/blue"
+        app:layout_constraintBottom_toTopOf="@id/button_first"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.199" />
+
+    <Button
+        android:id="@+id/colorblueButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="808dp"
+        android:text="@string/red"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/scouterName" />
 
     <TextView
         android:id="@+id/robotNumber"
@@ -82,7 +106,7 @@
         app:layout_constraintHorizontal_bias="0.10"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.20"/>
+        app:layout_constraintVertical_bias="0.3" />
 
     <Button
         android:id="@+id/numberButton"
@@ -93,7 +117,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/scouterName"/>
+        app:layout_constraintTop_toBottomOf="@id/scouterName" />
 
     <TextView
         android:id="@+id/teamButton"
@@ -105,7 +129,7 @@
         app:layout_constraintHorizontal_bias="0.10"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.25"/>
+        app:layout_constraintVertical_bias="0.4" />
 
     <Button
         android:id="@+id/neamButton"
@@ -116,7 +140,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/scouterName"/>
+        app:layout_constraintTop_toBottomOf="@id/scouterName" />
 
     <TextView
         android:id="@+id/matchNumber"
@@ -128,7 +152,7 @@
         app:layout_constraintHorizontal_bias="0.10"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.30"/>
+        app:layout_constraintVertical_bias="0.5" />
 
     <Button
         android:id="@+id/matchButton"
@@ -139,11 +163,11 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/scouterName"/>
+        app:layout_constraintTop_toBottomOf="@id/scouterName" />
 
     <TextView
         android:id="@+id/noShow"
-        android:layout_width="105dp"
+        android:layout_width="70dp"
         android:layout_height="30dp"
         android:text="@string/noShow"
         app:layout_constraintBottom_toTopOf="@id/button_first"
@@ -151,17 +175,29 @@
         app:layout_constraintHorizontal_bias="0.10"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.35"/>
+        app:layout_constraintVertical_bias="0.6" />
 
-    <Button
-        android:id="@+id/showButton"
+    <CheckBox
+        android:id="@+id/didTeamShow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="808dp"
-        android:text="@string/noShow"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/scouterName"/>
+        android:checked="false"
+        android:text=" "
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="244dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="hint" />
+    </com.google.android.material.textfield.TextInputLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

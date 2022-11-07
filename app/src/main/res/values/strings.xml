@@ -15,11 +15,14 @@
     <string name="prematch_frag" />
     <string name="scoutNameInputString">-Scouter Name:</string>
     <string name = "color">-Alliance Color:</string>
+    <string name = "red">Red</string>
+    <string name = "blue">Blue</string>
     <string name = "robotNumber">-Robot Number:</string>
     <string name = "teamName">-Team Name:</string>
     <string name = "matchNumber">-Match Number:</string>
     <string name = "noShow">-No Show:</string>
-// i cannot read her hieroglyphics ;p
+
+    // i cannot read her hieroglyphics ;p
 
     // auto strings
 
