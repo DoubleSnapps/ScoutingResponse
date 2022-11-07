@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    // theme colors
+    <!-- theme colors -->
     <color name="lighterBlue">#629afd</color>
     <color name="oddBlue">#6262fd</color>
     <color name="orchard">#9162Fd</color>
@@ -9,7 +9,7 @@
     <color name="satBlue">#1919e4</color>
     <color name="lavender">#8a43d5</color>
 
-    // team colors
+    <!-- team colors -->
     <color name="teamBlue">#362fff</color>
     <color name="teamRed">#ff2929</color>
 </resources>
